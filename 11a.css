@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Roboto", sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #6a7481;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	cursor: pointer;
+}
+.footer {
+	max-width: 1140px;
+	width: 100%;
+	margin: 20px auto;
+}
+.footer__logo {
+	width: 175px;
+	margin: 0 auto;
+	margin-left: 0;
+}
+.footer .footer__container {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+	border-top: 1px solid #d9e1e6;
+}
+
+.footer .footer__container .footer__descr {
+	margin: 0 auto;
+	width: 175px;
+}
+.footer .footer__container .footer__descr li{
+	display: block;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.footer .footer__container .footer__descr li:first-child{
+	margin-top: 0px;
+
+}
+.footer .footer__container .footer__help {
+	margin: 0 auto;
+	width: 175px;
+}
+.footer .footer__container .footer__help li{
+	display: block;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer .footer__end {
+	display: flex;
+	margin-top: 20px;
+	padding: 50px;
+	border-top: 1px solid #d9e1e6;
+}
+.footer .footer__end  p{
+	margin-right: 20px;
+}
+.footer .footer__end p:nth-child(2) {
+	margin-right: 0;
+}
+.footer .footer__end  p a{
+	text-decoration: underline;
+	
+}
+.footer .footer__end  span{
+	margin-left: auto;
+	
+}
+.footer__title {
+	font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2a3540;
+	margin-top: 0;
+}
+@media (max-width:768px) {
+	.footer .footer__container {
+		flex-wrap: wrap;
+	}
+	.footer__logo {
+		width: 100%;
+		max-width: 100%;
+	}
+	.footer .footer__container .footer__descr {
+		margin-left: 0;
+	}
+	.footer .footer__container .footer__descr li:first-child{
+		margin-top: 20px;
+	
+	}
+	.footer .footer__end  span{
+		width: 100%;
+		margin: 0;
+		margin-top: 10px;
+		
+	}
+	.footer .footer__end {
+		flex-wrap: wrap;
+	}
+	.footer .footer__end  p{
+		margin-top: 10px;
+	}
+}
+@media (max-width:480px) {
+	.footer .footer__container .footer__help {
+		margin-left: 0;
+	}
+	.footer .footer__end {
+		padding: 20px 50px;
+	}
+	
+	
+}
+@media (max-width:449px) {
+	.footer .footer__container .footer__help {
+		margin-top: 20px ;
+	}
+}
